@@ -1,0 +1,6 @@
+interface Sim3G
+{
+	public void videocall();
+	public void internet();
+} 
+

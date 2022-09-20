@@ -1,0 +1,7 @@
+interface Sim
+{
+	public void call();
+	public void msg();
+	default abstract void videocall();
+
+}

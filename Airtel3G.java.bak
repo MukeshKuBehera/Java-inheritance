@@ -1,0 +1,19 @@
+class Airtel3G extends Airtel implements Sim3G
+{
+	public void videocall(){
+		System.out.println("Airtel3G is active now");
+	}
+		public void internet(){
+			System.out.println("Airtel3G internet is working now");
+		}
+	public static void main(String[] args) 
+	{
+		System.out.println("Airtel3G is active now");
+		Airtel3G a1=new Airtel3G();
+		a1.videocall();
+		a1.internet();
+		a1.call();
+		a1.msg();
+
+	}
+}
